@@ -62,8 +62,7 @@ The below has been tested by one mac user and found to work. Note that this does
 
 ```
 # install build dependencies
-brew install cmake
-brew install go
+brew install cmake go protobuf abseil grpc
 
 # clone the repo
 git clone https://github.com/go-skynet/LocalAI.git
