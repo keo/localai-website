@@ -64,6 +64,12 @@ The below has been tested by one mac user and found to work. Note that this does
 # install build dependencies
 brew install cmake go protobuf abseil grpc
 
+# if you need text-to-speech (GO_TAGS=tts)
+brew install spdlog onnxruntime
+
+# if you need Stable Diffusion (GO_TAGS=stablediffusion)
+brew install opencv
+
 # clone the repo
 git clone https://github.com/go-skynet/LocalAI.git
 
